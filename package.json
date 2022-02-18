@@ -4,7 +4,8 @@
   "description": "Post-quantum QRL NFT provider index",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha"
+    "test": "nyc --reporter=html --reporter=text mocha test.js",
+    "build": "node build.js && cat index.js && npm run test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,10 @@
     "@theqrl/validate-qrl-address": "^3.0.0",
     "chai": "^4.3.6",
     "mocha": "^9.2.0",
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "semantic-release": "^19.0.2"
+  },
+  "dependencies": {
+    "yamljs": "^0.3.0"
   }
 }
