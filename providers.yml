@@ -13,3 +13,9 @@ providers:
             - Q01050038ca2264a06ee154a681201f99079bcd1ddf28355060b969daed25dd98efbf9ffd61b9b6
         url: 'https://fake.com'
         id: '0x00001123'
+    -
+        name: p2pq
+        addresses:
+            - Q01050046c0d7c08e0c0274ab49106b538b60566daf084e39716356273abbfe1b1d9e9415fcb07c
+        url: 'https://p2pq.trade'
+        id: '0x00001337'
