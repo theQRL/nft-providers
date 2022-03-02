@@ -15,8 +15,7 @@ ID bytes 0x00000000 - 0x0000FFFF are reserved for internal use: pull requests fo
 | ID bytes | Use |
 | -------- | --- |
 | 0x00000000 | Null/not linked to ID |
-| 0x00001122 | Testing only |
-| 0x00001123 | Testing only |
+| 0x00007777 | otdto |
 
 ### Public identities
 
