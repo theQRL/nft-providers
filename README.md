@@ -23,7 +23,7 @@ ID bytes 0x00000000 - 0x0000FFFF are reserved for internal use: pull requests fo
 | ID bytes | Use |
 | -------- | --- |
 | 0x00001234 | bsnoot |
-| 0x00001337 | jgphsp |
+| 0x00001337 | p2pq |
 
 ## Pull requests
 
