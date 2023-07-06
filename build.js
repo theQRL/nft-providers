@@ -3,7 +3,7 @@ const fs = require("fs");
 
 var filePath = "./index.js";;
 fs.unlinkSync(filePath);
-
+console.log(process.env.npm_package_version);
 let content = '/* AUTO GENERATED FILE DO NOT EDIT OR MAKE PRs FOR THIS FILE */\n\n';
 
 // Load YAML file using YAML.load
