@@ -22,7 +22,7 @@ ID bytes 0x00000000 - 0x0000FFFF are reserved for internal use: pull requests fo
 
 | ID bytes | Use |
 | -------- | --- |
-| none yet       |
+| 0x000010000 | Merkle Tree Labs |
 
 ## Pull requests
 
