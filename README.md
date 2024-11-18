@@ -1,7 +1,5 @@
 # nft-providers
 
-🚧 Work in progress 🚧
-
 ## About
 
 This repository houses public QRL NFT providers.
@@ -22,12 +20,15 @@ ID bytes 0x00000000 - 0x0000FFFF are reserved for internal use: pull requests fo
 
 | ID bytes | Use |
 | -------- | --- |
-| 0x000010000 | Merkle Tree Labs |
+| 0x00FFFF00 | https://cards.theqrl.org demo NFT set |
+| 0x00010000 | Merkle Tree Labs |
 
 ## Pull requests
 
 Identities are available on a first-come / first-served basis for projects building post-quantum secure NFT solutions.
 
 A PR should be made to update this ``README.md`` file (_Public identities_ table above) alongside the ``providers.yml`` with data in the prescribed format.
+
+Valid formatting of the YAML file can be checked by running `npm run build` following install of dependencies with `npm install`.
 
 Contact info@theqrl.org for assistance or if confidentiality is required prior to launch.

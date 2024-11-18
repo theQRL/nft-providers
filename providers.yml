@@ -10,4 +10,4 @@ providers:
         addresses:
             - Q0006003c7a58a7e75cfdf557a3c3a2dcb9da04f0e108254487afc7f2606eba809b3337df630d6b
         url: 'https://merkletreelabs.com/nft/qrl'
-        id: '0x000010000'
+        id: '0x00010000'
